@@ -50,6 +50,7 @@
                     <span class="text">Setting</span>
                 </a>
             </li>
+            <div class="indicator"></div>
             
         </ul>
     </div>
@@ -65,12 +66,13 @@
                 item.classList.remove('active');
                 this.classList.add('active');
             });
-            
         }
+        
 
         list.forEach((item) => {
             item.addEventListener('mouseover', setActiveClass)
         })
+        
     </script>
 
 </body>
